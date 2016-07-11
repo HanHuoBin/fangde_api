@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-   * Manage
+   * [Manage](manage.md)
 
