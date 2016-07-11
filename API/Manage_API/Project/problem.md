@@ -1,84 +1,81 @@
-# 团队
+# 常见问题
 
-## 成员新增
+## 常见问题新增
 
-	POST /project/team/add
-
+	POST /project/problem/add
+	
 **请求参数：**
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|项目id|int|是|
-|name|姓名|String|是|
-|head_image|头像|String|是|
-|position|职位|String|是|
-|description|描述|String|是|
-|content|内容|String|是|
+|problem|问题|String|是|
+|reply|回答|String|是|
+|status|是否设为常见问题|int|是|
 
+说明:status：0/否，1/是（默认是）
 
 **返回参数:**
 
 
 
-## 成员详情
+## 常见问题详情
 
-	GET /project/team/detail
+	GET /project/problem/detail
 	
 **请求参数：**
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|id|用户id|int|是|
-
+|id|常见问题id|int|是|
 
 **返回参数:**
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|id|用户id|int|是|
-|name|姓名|String|是|
-|head_image|头像|String|是|
-|position|职位|String|是|
-|description|描述|String|是|
-|content|内容|String|是|
+|id|常见问题id|int|是|
+|problem|问题|String|是|
+|reply|回答|String|是|
+|status|是否设为常见问题|int|是|
+
+说明:status：0/否，1/是（默认是）
+	
+## 常见问题编辑
+
+	POST /project/problem/edit
+
+**请求参数：**
+
+|参数名称|说明|类型|是否必须|
+|---|---|---|---|
+|id|常见问题id|int|是|
+|problem|问题|String|是|
+|reply|回答|String|是|
+|status|是否设为常见问题|int|是|
+
+说明:status：0/否，1/是（默认是）
+
+**返回参数:**
+
 
 	
-## 成员编辑
+## 常见问题删除
 
-	POST /project/team/edit
+	POST /project/problem/del
 	
 **请求参数：**
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|id|用户id|int|是|
-|name|姓名|String|是|
-|head_image|头像|String|是|
-|position|职位|String|是|
-|description|描述|String|是|
-|content|内容|String|是|	
+|id|常见问题id|int|是|
 
 
 **返回参数:**
 
-	
-## 成员删除
 
-	POST /project/team/del
-	
-**请求参数：**
+## 常见问题列表
 
-|参数名称|说明|类型|是否必须|
-|---|---|---|---|
-|id|用户id|int|是|
-
-
-**返回参数:**
-
-	
-## 成员列表
-
-	GET /project/team/list
+	GET /project/problem/list
 	
 **请求参数：**
 
@@ -86,13 +83,28 @@
 |---|---|---|---|
 |id|项目id|int|是|
 
-
 **返回参数:**
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|name|姓名|String|是|
-|head_image|头像|String|是|
-|position|职位|String|是|
-|description|描述|String|是|
-|content|内容|String|是|
+|id|常见问题id|int|是|
+|problem|问题|String|是|
+|adder|添加人|String|是|
+|create_time|添加时间|int|是|
+|status|是否设为常见问题|int|是|
+
+说明:status：0/否，1/是（默认是）
+	
+
+
+## 设为常见问题
+
+	GET /project/problem/common	
+	
+**请求参数：**
+
+|参数名称|说明|类型|是否必须|
+|---|---|---|---|
+|id|问题id|int|是|
+
+**返回参数:**
