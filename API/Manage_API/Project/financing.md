@@ -69,7 +69,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|融资ID|int|是|
-|title|项目名称|String|是|
+|title|项目ID|String|是|
 |type|融资类型|int|是|
 |round|融资是轮次|String|是|
 |finance_value|融资时估值|float|是|
