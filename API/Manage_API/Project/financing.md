@@ -29,56 +29,56 @@
 "code": 200
 "msg": "ok"
 "result": [5]
-0:  {
-"id": 5
-"title": "xiangmu1"
-"manage": null
-"type": 3
-"progress": "10"
-"target_money": 2000
-"have_money": "2000"
-"create_time": 1468310172
-}-
-1:  {
-"id": 4
-"title": "xiangmu1"
-"manage": null
-"type": 3
-"progress": "10"
-"target_money": 2000
-"have_money": "2000"
-"create_time": 1468310167
-}-
-2:  {
-"id": 3
-"title": "xiangmu1"
-"manage": null
-"type": 3
-"progress": "10"
-"target_money": 2000
-"have_money": "2000"
-"create_time": 1468310074
-}-
-3:  {
-"id": 2
-"title": "xiangmu1"
-"manage": null
-"type": 1
-"progress": "10"
-"target_money": 2000
-"have_money": "2000"
-"create_time": 1468310070
-}-
-4:  {
-"id": 1
-"title": "xiangmu1"
-"manage": "10"
-"type": 3
-"progress": "10"
-"target_money": 2000
-"have_money": "2000"
-"create_time": 1468310065
-}-
+  0:  {
+  "id": 5
+  "title": "xiangmu1"
+  "manage": null
+  "type": 3
+  "progress": "10"
+  "target_money": 2000
+  "have_money": "2000"
+  "create_time": 1468310172
+  }-
+  1:  {
+  "id": 4
+  "title": "xiangmu1"
+  "manage": null
+  "type": 3
+  "progress": "10"
+  "target_money": 2000
+  "have_money": "2000"
+  "create_time": 1468310167
+  }-
+  2:  {
+  "id": 3
+  "title": "xiangmu1"
+  "manage": null
+  "type": 3
+  "progress": "10"
+  "target_money": 2000
+  "have_money": "2000"
+  "create_time": 1468310074
+  }-
+  3:  {
+  "id": 2
+  "title": "xiangmu1"
+  "manage": null
+  "type": 1
+  "progress": "10"
+  "target_money": 2000
+  "have_money": "2000"
+  "create_time": 1468310070
+  }-
+  4:  {
+  "id": 1
+  "title": "xiangmu1"
+  "manage": "10"
+  "type": 3
+  "progress": "10"
+  "target_money": 2000
+  "have_money": "2000"
+  "create_time": 1468310065
+  }-
 -
 }
 ```
