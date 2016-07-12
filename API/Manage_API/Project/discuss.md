@@ -16,7 +16,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|ID|int|是|
-|content|评论内容|String|是|
+|content|问题|String|是|
 |commenter|评论人|String|是|
 |comment_time|评论时间|int|是|
 |replyer|回复人|String|是|
