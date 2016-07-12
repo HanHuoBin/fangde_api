@@ -119,7 +119,7 @@
 |manage_fee|投资管理比率|float|否|
 |manage_company|投资管理公司|int|否|
 |manage_company|项目评价|String|否|
-|recommended_id|推荐人|int|否|
+|recommended_id|推荐人ID|int|否|
 |manage_company|推荐人介绍|String|否|
 
 
