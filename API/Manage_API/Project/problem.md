@@ -12,7 +12,7 @@
 |problem|问题|String|是|
 |reply|回答|String|是|
 |status|是否设为常见问题|int|是|
-|admin_id|是否设为常见问题|int|是|
+|admin_id|添加人|int|是|
 
 说明:status：0/否，1/是（默认是）
 
