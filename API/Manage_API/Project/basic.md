@@ -82,7 +82,7 @@
 |website|网址|String|是|
 |evaluation|项目评价|String|是|
 |business_qulity|工商资质|String|是|
-|inveset_process|认投流程|String|是|
+|invest_process|认投流程|String|是|
 |recommend_id|推荐人ID|int|是|
 |recommend|推荐人|String|是|
 |recommend_intro|推荐人介绍|String|是|
@@ -119,7 +119,7 @@
 |website|网址|String|是|
 |evaluation|项目评价|String|是|
 |business_qulity|工商资质|String|是|
-|inveset_process|认投流程|String|是|
+|invest_process|认投流程|String|是|
 |recommend_id|推荐人ID|int|是|
 |recommend|推荐人|String|是|
 |recommend_intro|推荐人介绍|String|是|
