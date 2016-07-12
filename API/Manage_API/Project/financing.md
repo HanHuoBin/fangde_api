@@ -121,7 +121,7 @@
 |project_evaluation|项目评价|String|否|
 |recommended_id|推荐人ID|int|否|
 |recommended_info|推荐人介绍|String|否|
-|recommended_info|添加人|String|否|
+|adder|添加人id|int|否|
 
 
 
