@@ -115,9 +115,13 @@
 |end_time|认投结束时间|int|否|
 |all_money|认投总金额|float|否|
 |minimum_money|认投最小金额|float|否|
-|max_copies|认投最大金额|float|否|
+|max_money|认投最大金额|float|否|
 |manage_fee|投资管理比率|float|否|
 |manage_company|投资管理公司|int|否|
+|manage_company|项目评价|int|否|
+|manage_company|投资管理公司|int|否|
+|manage_company|投资管理公司|int|否|
+
 
 
 说明：type:1/内部融资,2/基金融资,3/外部融资
