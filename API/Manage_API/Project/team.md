@@ -12,7 +12,6 @@
 |name|姓名|String|是|
 |head_image|头像|String|是|
 |position|职位|String|是|
-|description|描述|String|是|
 |content|内容|String|是|
 
 
@@ -39,7 +38,6 @@
 |name|姓名|String|是|
 |head_image|头像|String|是|
 |position|职位|String|是|
-|description|描述|String|是|
 |content|内容|String|是|
 
 	
