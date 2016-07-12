@@ -54,6 +54,9 @@
 |max_copies|认投最大份数|int|否|
 |manage_fee|投资管理比率|float|否|
 |manage_company|投资管理公司|int|否|
+|project_evaluation|项目评价|String|否|
+|recommended_id|推荐人ID|int|否|
+|recommended_info|推荐人介绍|String|否|
 
 说明：type:1/内部融资,2/基金融资,3/外部融资
 	如果类型为内部融资，不返回融资时间字段
@@ -85,6 +88,9 @@
 |max_copies|认投最大份数|int|否|
 |manage_fee|投资管理比率|float|否|
 |manage_company|投资管理公司|int|否|
+|project_evaluation|项目评价|String|否|
+|recommended_id|推荐人ID|int|否|
+|recommended_info|推荐人介绍|String|否|
 
 
 说明：type:1/内部融资,2/基金融资,3/外部融资
