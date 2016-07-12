@@ -20,7 +20,7 @@
 |commenter|评论人|String|是|
 |comment_time|评论时间|int|是|
 |replyer|回复人|String|是|
-|reply_time|回复时间|String|是|
+|reply_time|回复时间|int|是|
 |status|是否公开|int|是|
 
 说明：status:0/不公开，1/公开
