@@ -112,7 +112,7 @@
 |province|省份|int|是|
 |city|城市|int|是|
 |website|网址|String|是|
-|business_qulity|工商资质|String|是|
+|business_license|工商资质|String|是|
 |invest_process|认投流程|String|是|
 |development|发展历程|String|是|
 
