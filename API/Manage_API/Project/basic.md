@@ -45,7 +45,7 @@
 |logo|项目logo图|String|是|
 |tag|标签|String|是|
 |province|省份|String|是|
-|province|地区|String|是|
+|province|城市|String|是|
 |website|网址|String|是|
 |business_qulity|工商资质|String|是|
 |invest_process|认投流程|String|是|
