@@ -81,6 +81,9 @@
 |business_license|工商资质|String|是|
 |invest_process|认投流程|String|是|
 |development|发展历程|String|是|
+|admin_id|添加人|String|是|
+
+
 
 
 **返回参数:**
