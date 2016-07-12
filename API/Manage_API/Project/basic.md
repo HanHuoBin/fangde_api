@@ -15,7 +15,7 @@
 |title|标题|String|是|
 |manage|项目经理|String|是|
 |att_number|关注用户|int|是|
-|inputer|添加者|String|是|
+|adder|添加者|String|是|
 |create_time|添加时间|int|是|
 
 
