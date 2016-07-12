@@ -113,7 +113,7 @@
 |fund_invest|基金投资金额|float|否|
 |start_time|认投开始时间|int|否|
 |end_time|认投结束时间|int|否|
-|all_copies|认投总份数|int|否|
+|all_copies|认投总金额|int|否|
 |minimum_copies|认投最小份数|int|否|
 |max_copies|认投最大份数|int|否|
 |manage_fee|投资管理比率|float|否|
