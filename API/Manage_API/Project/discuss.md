@@ -41,7 +41,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|ID|int|是|
-|content|评论内容|String|是|
+|problem|问题|String|是|
 |status|是否为公开|int|是|
 
 说明：status:0/不公开，1/公开
