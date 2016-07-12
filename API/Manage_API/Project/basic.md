@@ -150,28 +150,6 @@
 }
 ```
 
-## 委任
-
-	POST /project/appoint
-	
-**请求参数：**
-
-|参数名称|说明|类型|是否必须|
-|---|---|---|---|
-|id|项目id|int|是|
-|member_id|被委任对象ID|int|是|
-
-
-**返回参数:**
-
-```json
-{
-	"code": 200
-	"msg": "委任成功"
-	"result": []
-}
-```
-
 ## 关注用户列表
 
 	GET /project/att_list
