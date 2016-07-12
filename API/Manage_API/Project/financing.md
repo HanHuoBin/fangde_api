@@ -50,9 +50,9 @@
 |fund_invest|基金投资金额|float|否|
 |start_time|认投开始时间|int|否|
 |end_time|认投结束时间|int|否|
-|all_copies|认投总份数|int|否|
-|minimum_copies|认投最小份数|int|否|
-|max_copies|认投最大份数|int|否|
+|all_money|认投总金额|float|否|
+|minimum_money|认投最小金额|float|否|
+|max_money|认投最大金额|float|否|
 |manage_fee|投资管理比率|float|否|
 |manage_company|投资管理公司|int|否|
 |project_evaluation|项目评价|String|否|
@@ -84,9 +84,9 @@
 |fund_invest|基金投资金额|float|否|
 |start_time|认投开始时间|int|否|
 |end_time|认投结束时间|int|否|
-|all_copies|认投总份数|int|否|
-|minimum_copies|认投最小份数|int|否|
-|max_copies|认投最大份数|int|否|
+|all_money|认投总金额|float|否|
+|minimum_money|认投最小金额|float|否|
+|max_money|认投最大金额|float|否|
 |manage_fee|投资管理比率|float|否|
 |manage_company|投资管理公司|int|否|
 |project_evaluation|项目评价|String|否|
