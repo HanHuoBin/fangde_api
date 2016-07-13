@@ -59,7 +59,7 @@
 **返回参数：**
 
 
-## 融资删除
+## 删除
 	
 	POST /project/financing/del
 	
