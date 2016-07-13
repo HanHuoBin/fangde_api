@@ -100,19 +100,19 @@
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|id|基金id|int|是|
-|title|标题|String|是|
-|description|一句话描述|String|是|
-|introduction|基金介绍|String|是|
-|image|基金图片|String[]|是|
+|name|名称|String|是|
+|scale|基金规模|float|是|
+|small_photo|基金小图|String|是|
+|large_photo|基金大图|String[]|是|
 |logo|基金logo图|String|是|
-|tag|标签|String|是|
-|province|省份|int|是|
-|city|城市|int|是|
-|website|网址|String|是|
-|business_license|工商资质|String|是|
-|invest_process|认投流程|String|是|
-|development|发展历程|String|是|
+|explain|基金说明|String|是|
+|tag|投资领域|String|是|
+|number_years|基金年限|String|是|
+|management_fees|管理费用|String|是|
+|excess_returns|超额收益|String|是|
+|executing_transaction_partner|执行事务合伙人|int|是|
+|executing_transaction_money|执行事务合伙人投资金额|float|是|
+|fund_manager|基金经理|int|是|
 
 **返回参数:**
 
