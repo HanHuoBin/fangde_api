@@ -41,7 +41,7 @@
 |id|基金id|int|是|
 |name|名称|String|是|
 |scale|基金规模|float|是|
-|introduction|项目介绍|String|是|
+|small_photo|项目介绍|String|是|
 |image|项目图片|String[]|是|
 |logo|项目logo图|String|是|
 |tag|标签|String|是|
