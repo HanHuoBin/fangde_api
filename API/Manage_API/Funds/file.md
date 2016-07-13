@@ -10,8 +10,8 @@
 |---|---|---|---|
 |id|文件id|int|是|
 |fund_id|基金id|int|是|
-|title|附件标题|String|是|
-|file_url|文件url|String|是|
+|name|附件标题|String|是|
+|file_url|附件url|String|是|
 |description|附件描述|String|是|
 |admin_id|添加人|int|是|
 
