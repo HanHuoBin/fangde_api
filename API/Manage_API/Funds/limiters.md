@@ -2,7 +2,7 @@
 
 ## 新增
 
-	POST /fund/team/add
+	POST /fund/limit/add
 
 **请求参数：**
 
@@ -19,7 +19,7 @@
 
 ## 成员详情
 
-	GET /fund/team/detail
+	GET /fund/limit/detail
 	
 **请求参数：**
 
@@ -39,7 +39,7 @@
 	
 ## 成员编辑
 
-	POST /fund/team/edit
+	POST /fund/limit/edit
 	
 **请求参数：**
 
@@ -55,7 +55,7 @@
 	
 ## 成员删除
 
-	POST /fund/team/del
+	POST /fund/limit/del
 	
 **请求参数：**
 
@@ -69,7 +69,7 @@
 	
 ## 成员列表
 
-	GET /fund/team/list
+	GET /fund/limit/list
 	
 **请求参数：**
 
