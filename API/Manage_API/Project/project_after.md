@@ -17,6 +17,8 @@
 |title|标题|String|是|
 |condition|状态|int|是|
 
+说明：condition：1/已上线,2/待审核,3/被打回,4/待提交
+
 
 
 
