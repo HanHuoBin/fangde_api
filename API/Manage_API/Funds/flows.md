@@ -45,7 +45,7 @@ type:1/用户,2/项目
 |id|资金id|int|是|
 |occurrence_time|发生时间|String|是|
 |info|资金说明|String|是|
-|category|类别|String|是|
+|category|类别|int|是|
 |money|金额|float|是|
 |type|类型|int|是|
 |crm_id|会员ID|int|否|
