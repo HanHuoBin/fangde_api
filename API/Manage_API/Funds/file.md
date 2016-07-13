@@ -2,7 +2,7 @@
 
 ## 附件新增
 
-	POST /project/file/add
+	POST /fund/file/add
 	
 **请求参数：**
 
