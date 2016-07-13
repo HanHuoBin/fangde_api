@@ -2,7 +2,7 @@
 
 ## 新增
 
-	POST /fund/team/add
+	POST /fund/flow/add
 
 **请求参数：**
 
