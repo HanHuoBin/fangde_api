@@ -16,7 +16,7 @@
 |---|---|---|---|
 |id|融资id|int|是|
 |title|项目名称|String|是|
-|manage|认投经理|String|是|
+|financing_date|认投时间|String|是|
 |type|融资类型|int|是|
 |progress|融资进度|float|是|
 |target_money|目标金额（万元）|float|是|
