@@ -72,7 +72,7 @@
 |type|类型|int|是|
 |title|标题|String|是|
 |description|描述|String|是|
-|logo|项目logo图|String|是|
+|abouts|作者|String|是|
 |tag|标签|String|是|
 |province|省份|int|是|
 |city|城市|int|是|
