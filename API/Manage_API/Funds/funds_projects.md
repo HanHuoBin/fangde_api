@@ -23,7 +23,7 @@
 |exit_time|推出时间|int|是|
 
 
-## 融资详情
+## 项目退出详情
 	
 	GET /project/financing/detail
 	
