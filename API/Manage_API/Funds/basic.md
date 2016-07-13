@@ -42,7 +42,7 @@
 |name|名称|String|是|
 |scale|基金规模|float|是|
 |small_photo|基金小图|String|是|
-|large_photo|项目图片|String[]|是|
+|large_photo|基金大图|String[]|是|
 |logo|项目logo图|String|是|
 |tag|标签|String|是|
 |province|省份|int|是|
