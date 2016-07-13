@@ -95,7 +95,7 @@
 |id|附件id|int|是|
 |name|附件标题|String|是|
 |size|文件大小|int|是|
-|adder|添加人|String|是|
+|admin|添加人|String|是|
 |create_time|添加时间|int|是|
 |status|是否设为BP|int|是|
 
