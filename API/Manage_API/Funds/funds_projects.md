@@ -15,7 +15,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|融资id|int|是|
-|title|项目名称|String|是|
+|name|项目名称|String|是|
 |financing_date|认投时间|String|是|
 |type|融资类型|int|是|
 |progress|融资进度|float|是|
