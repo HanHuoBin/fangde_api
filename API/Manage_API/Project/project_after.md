@@ -14,6 +14,8 @@
 |id|投后id|int|是|
 |title|标题|String|是|
 |number|附件个数|int|是|
+|type|类型|int|是|
+|title|标题|String|是|
 |logo|项目logo|String|否|
 |condition|状态|int|是|
 
