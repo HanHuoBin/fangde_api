@@ -69,7 +69,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |project_id|项目id|int|是|
-|description|一句话描述|String|是|
+|type|一句话描述|String|是|
 |introduction|项目介绍|String|是|
 |image|项目图片|String[]|是|
 |logo|项目logo图|String|是|
