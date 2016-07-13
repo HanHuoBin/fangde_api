@@ -18,8 +18,8 @@
 |name|项目名称|String|是|
 |financing_date|认投时间|String|是|
 |funds_money|认投金额|int|是|
-|sell_shares|融资进度|float|是|
-|exit_earnings|目标金额（万元）|float|是|
+|sell_shares|出让股份|float|是|
+|exit_earnings|退出收益|float|是|
 |exit_time|推出时间|int|是|
 
 
