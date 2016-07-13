@@ -70,7 +70,7 @@
 |---|---|---|---|
 |project_id|项目id|int|是|
 |type|类型|int|是|
-|introduction|项目介绍|String|是|
+|name|项目介绍|String|是|
 |image|项目图片|String[]|是|
 |logo|项目logo图|String|是|
 |tag|标签|String|是|
