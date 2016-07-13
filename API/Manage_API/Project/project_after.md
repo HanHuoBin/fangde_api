@@ -20,8 +20,6 @@
 说明：condition：1/已上线,2/待审核,3/被打回,4/待提交
 
 
-
-
 ## 投后详情
 
 	GET /after/project/detail?id=1
