@@ -70,8 +70,8 @@
 |---|---|---|---|
 |project_id|项目id|int|是|
 |type|类型|int|是|
-|name|项目介绍|String|是|
-|image|项目图片|String[]|是|
+|title|标题|String|是|
+|description|描述|String[]|是|
 |logo|项目logo图|String|是|
 |tag|标签|String|是|
 |province|省份|int|是|
