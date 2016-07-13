@@ -25,7 +25,7 @@
 
 ## 项目退出详情
 	
-	GET /project/financing/detail
+	GET /fund/project/detail
 	
 **请求参数：**
 
@@ -45,7 +45,7 @@
 
 ## 项目退出
 	
-	POST /project/financing/edit
+	POST /fund/project/edit
 	
 **请求参数：**
 
