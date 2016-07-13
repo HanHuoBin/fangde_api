@@ -61,7 +61,7 @@
 	
 ## 附件删除
 
-	POST /project/file/del
+	POST /fund/file/del
 
 
 **请求参数：**
@@ -78,7 +78,7 @@
 
 ## 附件列表
 
-	GET /project/file/list?id=1
+	GET /fund/file/list?id=1
 	
 **请求参数：**
 
