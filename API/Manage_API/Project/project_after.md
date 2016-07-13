@@ -75,7 +75,7 @@
 |abouts|作者|String|否|
 |content|内容|String|否|
 |admin_id|添加人|int|是|
-|files|附件|int|是|
+|files|附件|int|否|
 
 说明：type:1/简报,2/消息,3/新闻,4/互助箱
 
