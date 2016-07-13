@@ -14,6 +14,7 @@
 |category|类别|String|是|
 |money|金额|float|是|
 |type|类型|int|是|
+|crm_id|会员ID|||
 
 说明：category：类别->1/收入,2/支出
 type:1/用户,2/项目
