@@ -93,6 +93,6 @@ type:1/用户,2/项目
 |info|资金说明|String|是|
 |money|金额|float|是|
 |type|类型|int|是|
-|category|类别|String|是|
+|name|关联的项目或者用户的name|String|是|
 |crm_id|会员ID|int|否|
 |project_id|项目ID|int|否|
