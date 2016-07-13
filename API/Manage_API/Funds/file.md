@@ -9,7 +9,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|文件id|int|是|
-|funds_id|项目id|int|是|
+|funds_id|基金id|int|是|
 |title|附件标题|String|是|
 |file_url|文件url|String|是|
 |status|是否设为BP|int|是|
