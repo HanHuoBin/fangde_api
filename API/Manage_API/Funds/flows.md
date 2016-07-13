@@ -16,6 +16,7 @@
 |type|类型|int|是|
 |crm_id|会员ID|int|否|
 |project_id|项目ID|int|否|
+|admin_id|项目ID|int|否|
 
 说明：category：类别->1/收入,2/支出
 type:1/用户,2/项目
