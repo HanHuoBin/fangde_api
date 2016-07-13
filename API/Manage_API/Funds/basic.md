@@ -43,7 +43,7 @@
 |scale|基金规模|float|是|
 |small_photo|基金小图|String|是|
 |large_photo|基金大图|String[]|是|
-|logo|项目logo图|String|是|
+|logo|基金logo图|String|是|
 |tag|标签|String|是|
 |province|省份|int|是|
 |city|城市|int|是|
@@ -52,7 +52,7 @@
 |invest_process|认投流程|String|是|
 |development|发展历程|String|是|
 
-说明：1.项目图片为多张
+说明：1.基金图片为多张
 	 2.工商资质，认投流程都为图片
 
 ```json
@@ -62,7 +62,7 @@
 ```
 
 
-## 项目新增
+## 基金新增
 
 	POST /project/add
 	
@@ -72,9 +72,9 @@
 |---|---|---|---|
 |title|标题|String|是|
 |description|一句话描述|String|是|
-|introduction|项目介绍|String|是|
-|image|项目图片|String[]|是|
-|logo|项目logo图|String|是|
+|introduction|基金介绍|String|是|
+|image|基金图片|String[]|是|
+|logo|基金logo图|String|是|
 |tag|标签|String|是|
 |province|省份|int|是|
 |city|城市|int|是|
@@ -98,7 +98,7 @@
 }
 ```
 
-## 项目编辑
+## 基金编辑
 
 	POST /project/edit?id=2
 	
@@ -106,12 +106,12 @@
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|id|项目id|int|是|
+|id|基金id|int|是|
 |title|标题|String|是|
 |description|一句话描述|String|是|
-|introduction|项目介绍|String|是|
-|image|项目图片|String[]|是|
-|logo|项目logo图|String|是|
+|introduction|基金介绍|String|是|
+|image|基金图片|String[]|是|
+|logo|基金logo图|String|是|
 |tag|标签|String|是|
 |province|省份|int|是|
 |city|城市|int|是|
@@ -130,7 +130,7 @@
 }
 ```
 
-## 项目删除
+## 基金删除
 
 	POST /project/del?id=1
 
@@ -138,7 +138,7 @@
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|id|项目id|int|是|
+|id|基金id|int|是|
 
 
 **返回参数:**
