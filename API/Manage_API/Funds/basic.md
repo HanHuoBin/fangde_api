@@ -50,8 +50,8 @@
 |number_years|基金年限|String|是|
 |management_fees|管理费用|String|是|
 |excess_returns|超额收益|String|是|
-|executing_transaction_partner|执行事务合伙人|String|是|
-|fund_manager|发展历程|String|是|
+|executing_transaction_partner|执行事务合伙人|int|是|
+|fund_manager|基金经理|String|是|
 
 说明：1.基金图片为多张
 	 2.工商资质，认投流程都为图片
