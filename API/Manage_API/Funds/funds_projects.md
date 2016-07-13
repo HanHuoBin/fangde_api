@@ -61,7 +61,7 @@
 
 ## 删除
 	
-	POST /project/financing/del
+	POST /fund/project/del
 	
 **请求参数：**
 
