@@ -1,7 +1,7 @@
 # 项目投后
 ## 投后列表
 
-	GET  /project/list
+	GET  /after/project/list
 
 **请求参数：**
 无
