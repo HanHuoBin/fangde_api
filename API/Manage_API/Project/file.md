@@ -97,42 +97,10 @@
 |size|文件大小|int|是|
 |admin|添加人|String|是|
 |create_time|添加时间|int|是|
-|status|是否设为BP|int|是|
+|is_bp|是否设为BP|int|是|
 
 说明:status：0/否，1/是
 
-```json
-{
-"code": 200
-"msg": "ok"
-"result": [
-      {
-        "id": 3
-        "title": null
-        "file_size": null
-        "adder": false
-        "create_time": 0
-        "status": 0
-      },
-      {
-        "id": 2
-        "title": null
-        "file_size": null
-        "adder": false
-        "create_time": 0
-        "status": 0
-      },
-      {
-        "id": 1
-        "title": null
-        "file_size": null
-        "adder": false
-        "create_time": 0
-        "status": 0
-      }
-    ]
-}
-```
 
 ## 附件设为BP
 
