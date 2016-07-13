@@ -2,7 +2,7 @@
 
 ## 列表
 	
-	GET /fund/financing/list
+	GET /fund/project/list
 	
 **请求参数：**
 
