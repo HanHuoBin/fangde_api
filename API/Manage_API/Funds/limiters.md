@@ -84,6 +84,7 @@
 |id|成员ID|int|是|
 |mobile|手机|String|是|
 |name|姓名|String|是|
+|truename|真实姓名|String|是|
 |head_image|头像|String|是|
 |position|职位|String|是|
 |content|内容|String|是|
