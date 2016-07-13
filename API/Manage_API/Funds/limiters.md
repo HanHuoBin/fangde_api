@@ -9,7 +9,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|会员id|int|是|
-|investment_amount|-合伙人投资金额|String|是|
+|investment_amount|合伙人投资金额|String|是|
 
 
 **返回参数:**
