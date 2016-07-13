@@ -12,7 +12,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|投后id|int|是|
-|type|类型|int|是|
+|name|项目名称|int|是|
 |title|标题|String|否|
 |description|描述|String|否|
 |abouts|作者|String|否|
