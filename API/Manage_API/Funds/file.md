@@ -38,9 +38,7 @@
 |id|附件id|int|是|
 |title|附件标题|String|是|
 |file_url|文件url|String|是|
-|status|是否设为BP|int|是|
-
-说明:status：0/否，1/是
+|description|附件描述|String|是|
 
 
 ## 附件编辑
