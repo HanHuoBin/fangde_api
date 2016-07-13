@@ -12,8 +12,6 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|投后id|int|是|
-|name|项目名称|String|是|
-|logo|项目logo|String|否|
 |title|标题|String|是|
 |condition|状态|int|是|
 
