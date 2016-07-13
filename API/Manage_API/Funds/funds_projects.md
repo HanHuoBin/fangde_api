@@ -18,10 +18,9 @@
 |name|项目名称|String|是|
 |financing_date|认投时间|String|是|
 |funds_money|认投金额|int|是|
-|progress|融资进度|float|是|
-|target_money|目标金额（万元）|float|是|
-|have_money|已筹金额（万元）|float|是|
-|create_time|融资日期|int|是|
+|sell_shares|融资进度|float|是|
+|exit_earnings|目标金额（万元）|float|是|
+|exit_time|推出时间|int|是|
 
 
 ## 融资详情
