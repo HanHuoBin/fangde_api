@@ -100,7 +100,7 @@
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|id|名称|String|是|
+|id|基金ID|int|是|
 |name|名称|String|是|
 |scale|基金规模|float|是|
 |small_photo|基金小图|String|是|
