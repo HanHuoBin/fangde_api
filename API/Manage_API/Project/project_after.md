@@ -19,7 +19,7 @@
 |condition|状态|int|是|
 |update_time|处理时间|int|是|
 |dealer|处理人|String|是|
-|create_time|处理时间|int|是|
+|create_time|添加时间|int|是|
 |dealer|处理人|String|是|
 
 说明：condition：1/已上线,2/待审核,3/被打回,4/待提交
