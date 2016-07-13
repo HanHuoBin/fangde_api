@@ -50,6 +50,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|附件id|int|是|
+|fund_id|基金id|int|是|
 |name|附件标题|String|是|
 |path|附件url|String|是|
 |description|附件描述|String|是|
@@ -92,7 +93,7 @@
 |id|附件id|int|是|
 |title|附件标题|String|是|
 |file_size|文件大小|int|是|
-|adder|添加人|String|是|
+|admin|添加人|String|是|
 |create_time|添加时间|int|是|
 |status|是否设为BP|int|是|
 
