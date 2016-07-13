@@ -16,5 +16,6 @@
 |id|基金id|int|是|
 |name|名称|String|是|
 |scale|基金规模|float|是|
+|fund_manager|基金规模|float|是|
 |adder|添加者|String|是|
 |create_time|添加时间|int|是|
