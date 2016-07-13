@@ -13,6 +13,8 @@
 |---|---|---|---|
 |id|投后id|int|是|
 |title|标题|String|是|
+|number|附件个数|String|是|
+|logo|项目logo|String|否|
 |condition|状态|int|是|
 
 说明：condition：1/已上线,2/待审核,3/被打回,4/待提交
