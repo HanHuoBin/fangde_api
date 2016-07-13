@@ -15,12 +15,8 @@
 |name|项目名称|String|是|
 |logo|项目logo|String|否|
 |title|标题|String|是|
-|description|描述|String|否|
-|abouts|作者|String|否|
-|content|内容|String|否|
-|admin_id|添加人|int|是|
-|files|附件|int[]|否|
-|url|链接|String|否|
+|status|标题|String|是|
+
 
 
 
