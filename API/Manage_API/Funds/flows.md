@@ -14,7 +14,7 @@
 |category|类别|String|是|
 |content|内容|String|是|
 
-说明：
+说明：category：类别->1/收入,2/支出
 
 
 **返回参数:**
