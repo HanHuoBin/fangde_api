@@ -46,8 +46,9 @@
 |logo|基金logo图|String|是|
 |explain|基金说明|String|是|
 |tag|投资领域|String|是|
-|city|城市|int|是|
-|website|网址|String|是|
+
+|number_years|城市|int|是|
+|management_fees|网址|String|是|
 |business_license|工商资质|String|是|
 |invest_process|认投流程|String|是|
 |development|发展历程|String|是|
