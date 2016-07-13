@@ -17,4 +17,4 @@
     - [附件](API/Manage_API/Funds/file.md)
     - [基金项目](API/Manage_API/Funds/funds_project.md)
     - [资金流](API/Manage_API/Funds/financing.md)
-    - [投后](API/Manage_API/Funds/project_after.md)
+    - [投后](API/Manage_API/Funds/funds_after.md)
