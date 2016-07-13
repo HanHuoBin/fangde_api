@@ -95,6 +95,5 @@
 |file_size|文件大小|int|是|
 |admin|添加人|String|是|
 |create_time|添加时间|int|是|
-|status|是否设为BP|int|是|
 
 说明:status：0/否，1/是
