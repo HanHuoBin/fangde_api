@@ -10,7 +10,7 @@
 |---|---|---|---|
 |id|基金id|int|是|
 |occurrence_time|发生时间|String|是|
-|head_image|头像|String|是|
+|info|头像|String|是|
 |position|职位|String|是|
 |content|内容|String|是|
 
