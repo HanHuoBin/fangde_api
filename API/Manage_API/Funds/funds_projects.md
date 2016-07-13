@@ -43,7 +43,7 @@
 
 
 
-## 融资编辑
+## 项目退出
 	
 	POST /project/financing/edit
 	
