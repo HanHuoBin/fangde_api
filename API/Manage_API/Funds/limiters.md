@@ -87,4 +87,3 @@
 |truename|真实姓名|String|是|
 |investment_amount|投资金额|String|是|
 |create_time|添加时间|int|是|
-|content|内容|String|是|
