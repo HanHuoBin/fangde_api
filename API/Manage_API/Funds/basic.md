@@ -77,6 +77,7 @@
 |executing_transaction_partner|执行事务合伙人|int|是|
 |executing_transaction_money|执行事务合伙人投资金额|float|是|
 |fund_manager|基金经理|int|是|
+|admin_id|添加人|int|是|
 
 
 
