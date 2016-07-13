@@ -18,7 +18,7 @@
 |name|项目标题|String|是|
 |condition|状态|int|是|
 |update_time|处理时间|int|是|
-|title|标题|String|是|
+|dealer|处理人|String|是|
 
 说明：condition：1/已上线,2/待审核,3/被打回,4/待提交
     type:1/简报,2/消息,3/新闻,4/互助箱
