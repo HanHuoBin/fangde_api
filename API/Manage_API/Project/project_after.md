@@ -70,10 +70,10 @@
 |---|---|---|---|
 |project_id|项目id|int|是|
 |type|类型|int|是|
-|title|标题|String|是|
-|description|描述|String|是|
-|abouts|作者|String|是|
-|content|内容|String|是|
+|title|标题|String|否|
+|description|描述|String|否|
+|abouts|作者|String|否|
+|content|内容|String|否|
 |admin_id|添加人|int|是|
 |files|附件|int|是|
 
