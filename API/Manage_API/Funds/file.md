@@ -36,7 +36,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|附件id|int|是|
-|title|附件标题|String|是|
+|||附件标题|String|是|
 |file_url|文件url|String|是|
 |description|附件描述|String|是|
 
@@ -91,7 +91,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|附件id|int|是|
-|title|附件标题|String|是|
+|name|附件标题|String|是|
 |size|文件大小|int|是|
 |admin|添加人|String|是|
 |create_time|添加时间|int|是|
