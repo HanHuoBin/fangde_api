@@ -49,9 +49,9 @@
 
 |number_years|城市|int|是|
 |management_fees|网址|String|是|
-|business_license|工商资质|String|是|
-|invest_process|认投流程|String|是|
-|development|发展历程|String|是|
+|excess_returns|工商资质|String|是|
+|executing_transaction_partner|认投流程|String|是|
+|fund_manager|发展历程|String|是|
 
 说明：1.基金图片为多张
 	 2.工商资质，认投流程都为图片
