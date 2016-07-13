@@ -31,14 +31,14 @@
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|id|项目id|int|是|
+|id|基金id|int|是|
 
 
 **返回参数:**
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|id|项目id|int|是|
+|id|基金id|int|是|
 |title|标题|String|是|
 |description|一句话描述|String|是|
 |introduction|项目介绍|String|是|
