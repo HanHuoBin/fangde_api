@@ -13,7 +13,7 @@
 |info|资金说明|String|是|
 |category|类别|String|是|
 |money|金额|float|是|
-|money|type|float|是|
+|type|类型|float|是|
 
 说明：category：类别->1/收入,2/支出
 
