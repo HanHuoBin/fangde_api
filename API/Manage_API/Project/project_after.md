@@ -76,7 +76,7 @@
 |content|内容|String|否|
 |admin_id|添加人|int|是|
 |files|附件|int|否|
-|url|链接|int|否|
+|url|链接|String|否|
 
 url
 
