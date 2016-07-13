@@ -9,5 +9,5 @@
     - [附件](API/Manage_API/Project/file.md)
     - [常见问题](API/Manage_API/Project/problem.md)
     - [融资](API/Manage_API/Project/financing.md)
-    - [投后](API/Manage_API/Project/financing.md)
+    - [投后](API/Manage_API/Project/project_after.md)
   
