@@ -14,7 +14,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|基金id|int|是|
-|title|标题|String|是|
+|name|名称|String|是|
 |scale|基金规模|int|是|
 |adder|添加者|String|是|
 |create_time|添加时间|int|是|
