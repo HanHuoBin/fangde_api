@@ -2,7 +2,7 @@
 
 ## 成员新增
 
-	POST /project/team/add
+	POST /fund/team/add
 
 **请求参数：**
 
@@ -21,7 +21,7 @@
 
 ## 成员详情
 
-	GET /project/team/detail
+	GET /fund/team/detail
 	
 **请求参数：**
 
@@ -43,7 +43,7 @@
 	
 ## 成员编辑
 
-	POST /project/team/edit
+	POST /fund/team/edit
 	
 **请求参数：**
 
@@ -61,7 +61,7 @@
 	
 ## 成员删除
 
-	POST /project/team/del
+	POST /fund/team/del
 	
 **请求参数：**
 
@@ -75,7 +75,7 @@
 	
 ## 成员列表
 
-	GET /project/team/list
+	GET /fund/team/list
 	
 **请求参数：**
 
