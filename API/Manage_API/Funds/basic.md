@@ -39,7 +39,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|基金id|int|是|
-|title|标题|String|是|
+|name|名称|String|是|
 |description|一句话描述|String|是|
 |introduction|项目介绍|String|是|
 |image|项目图片|String[]|是|
