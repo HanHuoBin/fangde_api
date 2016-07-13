@@ -36,8 +36,8 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|附件id|int|是|
-|||附件标题|String|是|
-|file_url|文件url|String|是|
+|name|附件标题|String|是|
+|path|文件url|String|是|
 |description|附件描述|String|是|
 
 
