@@ -73,7 +73,7 @@
 |title|标题|String|是|
 |description|描述|String|是|
 |abouts|作者|String|是|
-|content|标签|String|是|
+|content|内容|String|是|
 |province|省份|int|是|
 |city|城市|int|是|
 |website|网址|String|是|
