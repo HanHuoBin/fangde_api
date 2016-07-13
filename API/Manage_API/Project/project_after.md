@@ -11,11 +11,15 @@
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|id|项目id|int|是|
-|title|标题|String|是|
-|att_number|关注用户|int|是|
-|adder|添加者|String|是|
-|create_time|添加时间|int|是|
+|project_id|项目id|int|是|
+|type|类型|int|是|
+|title|标题|String|否|
+|description|描述|String|否|
+|abouts|作者|String|否|
+|content|内容|String|否|
+|admin_id|添加人|int|是|
+|files|附件|int[]|否|
+|url|链接|String|否|
 
 
 
