@@ -21,7 +21,7 @@
 
 ## 投后详情
 
-	GET /project/detail?id=1
+	GET /after/project/detail?id=1
 	
 说明：无
 	
@@ -62,7 +62,7 @@
 
 ## 投后新增
 
-	POST /project/add
+	POST /after/project/add
 	
 **请求参数：**
 
@@ -98,7 +98,7 @@
 
 ## 投后编辑
 
-	POST /project/edit?id=2
+	POST /after/project/edit?id=2
 	
 **请求参数：**
 
@@ -130,7 +130,7 @@
 
 ## 投后删除
 
-	POST /project/del?id=1
+	POST /after/project/del?id=1
 
 **请求参数：**
 
