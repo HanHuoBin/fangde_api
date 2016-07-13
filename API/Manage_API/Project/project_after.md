@@ -74,13 +74,8 @@
 |description|描述|String|是|
 |abouts|作者|String|是|
 |content|内容|String|是|
-|province|省份|int|是|
-|city|城市|int|是|
-|website|网址|String|是|
-|business_license|工商资质|String|是|
-|invest_process|认投流程|String|是|
-|development|发展历程|String|是|
 |admin_id|添加人|int|是|
+|files|附件|||
 
 说明：type:1/简报,2/消息,3/新闻,4/互助箱
 
