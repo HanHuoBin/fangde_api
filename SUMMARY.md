@@ -10,7 +10,7 @@
     - [常见问题](API/Manage_API/Project/problem.md)
     - [融资](API/Manage_API/Project/financing.md)
     - [投后](API/Manage_API/Project/project_after.md)
-  * [基金相关](API/Manage_API/Project/README.md)
+  * [基金相关](API/Manage_API/Funds/README.md)
     - [项目基本接口](API/Manage_API/Project/basic.md) 
     - [讨论](API/Manage_API/Project/discuss.md)
     - [团队](API/Manage_API/Project/team.md)
