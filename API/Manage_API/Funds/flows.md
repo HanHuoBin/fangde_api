@@ -21,7 +21,7 @@
 
 ## 详情
 
-	GET /fund/team/detail
+	GET /fund/flow/detail
 	
 **请求参数：**
 
@@ -43,7 +43,7 @@
 	
 ## 编辑
 
-	POST /fund/team/edit
+	POST /fund/flow/edit
 	
 **请求参数：**
 
