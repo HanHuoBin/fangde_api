@@ -82,6 +82,7 @@
 |development|发展历程|String|是|
 |admin_id|添加人|int|是|
 
+说明：1/简报,2/消息,3/新闻,4/互助箱
 
 
 
