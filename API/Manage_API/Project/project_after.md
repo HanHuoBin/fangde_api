@@ -19,7 +19,7 @@
 
 
 
-## 项目详情
+## 投后详情
 
 	GET /project/detail?id=1
 	
@@ -60,7 +60,7 @@
 ```
 
 
-## 项目新增
+## 投后新增
 
 	POST /project/add
 	
@@ -96,7 +96,7 @@
 }
 ```
 
-## 项目编辑
+## 投后编辑
 
 	POST /project/edit?id=2
 	
