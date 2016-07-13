@@ -101,6 +101,39 @@
 
 说明:status：0/否，1/是
 
+```json
+{
+"code": 200
+"msg": "ok"
+"result": [
+      {
+        "id": 3
+        "title": null
+        "file_size": null
+        "adder": false
+        "create_time": 0
+        "status": 0
+      },
+      {
+        "id": 2
+        "title": null
+        "file_size": null
+        "adder": false
+        "create_time": 0
+        "status": 0
+      },
+      {
+        "id": 1
+        "title": null
+        "file_size": null
+        "adder": false
+        "create_time": 0
+        "status": 0
+      }
+    ]
+}
+```
+
 ## 附件设为BP
 
 	GET /project/file/set_bp			
