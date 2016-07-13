@@ -40,28 +40,15 @@
 
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
-|id|项目id|int|是|
-|title|标题|String|是|
-|description|一句话描述|String|是|
-|introduction|项目介绍|String|是|
-|image|项目图片|String[]|是|
-|logo|项目logo图|String|是|
-|tag|标签|String|是|
-|province|省份|int|是|
-|city|城市|int|是|
-|website|网址|String|是|
-|business_license|工商资质|String|是|
-|invest_process|认投流程|String|是|
-|development|发展历程|String|是|
-
-说明：1.项目图片为多张
-	 2.工商资质，认投流程都为图片
-
-```json
-{
-	waiting...
-}
-```
+|project_id|项目id|int|是|
+|type|类型|int|是|
+|title|标题|String|否|
+|description|描述|String|否|
+|abouts|作者|String|否|
+|content|内容|String|否|
+|admin_id|添加人|int|是|
+|files|附件|int[]|否|
+|url|链接|String|否|
 
 
 ## 投后新增
