@@ -11,8 +11,10 @@
 |id|基金id|int|是|
 |occurrence_time|发生时间|String|是|
 |info|资金说明|String|是|
-|category|职位|String|是|
+|category|类别|String|是|
 |content|内容|String|是|
+
+说明：
 
 
 **返回参数:**
