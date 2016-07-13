@@ -12,7 +12,7 @@
 |occurrence_time|发生时间|String|是|
 |info|资金说明|String|是|
 |category|类别|String|是|
-|content|内容|String|是|
+|money|金额|String|是|
 
 说明：category：类别->1/收入,2/支出
 
