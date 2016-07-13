@@ -55,7 +55,7 @@
 |name|附件标题|String|是|
 |path|附件url|String|是|
 |description|附件描述|String|是|
-说明:status：0/否，1/是
+
 
 **返回参数:**
 
