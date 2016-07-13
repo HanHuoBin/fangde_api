@@ -23,7 +23,7 @@
 
 ## 基金详情
 
-	GET /project/detail?id=1
+	GET /fund/detail?id=1
 	
 说明：无
 	
