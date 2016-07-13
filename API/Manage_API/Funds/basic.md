@@ -44,7 +44,7 @@
 |small_photo|基金小图|String|是|
 |large_photo|基金大图|String[]|是|
 |logo|基金logo图|String|是|
-|tag|标签|String|是|
+|explain|基金说明|String|是|
 |province|省份|int|是|
 |city|城市|int|是|
 |website|网址|String|是|
