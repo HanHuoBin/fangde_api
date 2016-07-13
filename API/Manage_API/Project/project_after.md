@@ -15,7 +15,7 @@
 |name|项目名称|String|是|
 |logo|项目logo|String|否|
 |title|标题|String|是|
-|condition|状态|String|是|
+|condition|状态|int|是|
 
 
 
