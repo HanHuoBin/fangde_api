@@ -22,7 +22,7 @@
 
 ## 附件详情
 
-	GET /project/file/detail
+	GET /fund/file/detail
 	
 **请求参数：**
 
@@ -43,7 +43,7 @@
 
 ## 附件编辑
 
-	POST /project/file/edit
+	POST /fund/file/edit
 	
 **请求参数：**
 
