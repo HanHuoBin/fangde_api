@@ -15,6 +15,6 @@
     - [合伙人](API/Manage_API/Funds/limiters.md)
     - [团队](API/Manage_API/Funds/team.md)
     - [附件](API/Manage_API/Funds/file.md)
-    - [基金项目](API/Manage_API/Funds/funds_project.md)
+    - [基金项目](API/Manage_API/Funds/funds_projects.md)
     - [资金流](API/Manage_API/Funds/financing.md)
     - [投后](API/Manage_API/Funds/funds_after.md)
