@@ -184,7 +184,7 @@
 
 ## 打回
 
-    POST  /after/project/check
+    POST  /after/project/refuse
     
 **请求参数：**
 
