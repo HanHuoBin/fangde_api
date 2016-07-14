@@ -44,7 +44,7 @@
 |参数名称|说明|类型|是否必须|
 |---|---|---|---|
 |id|投后id|int|是|
-|project_id|项目id|int|是|
+|funds_id|基金id|int|是|
 |type|类型|int|是|
 |title|标题|String|否|
 |description|描述|String|否|
