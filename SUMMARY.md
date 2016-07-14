@@ -12,7 +12,7 @@
     - [投后](API/Manage_API/Project/project_after.md)
   * [基金相关](API/Manage_API/Funds/README.md)
     - [项目基本接口](API/Manage_API/Funds/basic.md) 
-    - [合伙人](API/Manage_API/Funds/limiter.md)
+    - [合伙人](API/Manage_API/Funds/limiters.md)
     - [团队](API/Manage_API/Funds/team.md)
     - [附件](API/Manage_API/Funds/file.md)
     - [基金项目](API/Manage_API/Funds/funds_project.md)
