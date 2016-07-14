@@ -176,13 +176,13 @@
 ```json
 {
 	"code": 200
-	"msg": "提交成功"
+	"msg": "审核成功"
 	"result": []
 }
 ```
 
 
-## 提交
+## 打回
 
     POST  /after/project/check
     
