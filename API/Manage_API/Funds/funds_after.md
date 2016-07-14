@@ -1,7 +1,7 @@
 # 项目投后
 ## 投后列表
 
-	GET  /after/project/list
+	GET  /after/fund/list
 
 **请求参数：**
 无
@@ -28,7 +28,7 @@
 
 ## 投后详情
 
-	GET /after/project/detail?id=1
+	GET /after/fund/detail?id=1
 	
 说明：无
 	
