@@ -120,7 +120,7 @@
 
 ## 投后删除
 
-	POST /after/project/del?id=1
+	POST /after/fund/del?id=1
 
 **请求参数：**
 
@@ -141,7 +141,7 @@
 
 ## 提交
 
-    POST  /after/project/commit
+    POST  /after/fund/commit
     
 **请求参数：**
 
@@ -163,7 +163,7 @@
 
 ## 审核
 
-    POST  /after/project/check
+    POST  /after/fund/check
     
 **请求参数：**
 
@@ -185,7 +185,7 @@
 
 ## 打回
 
-    POST  /after/project/refuse
+    POST  /after/fund/refuse
     
 **请求参数：**
 
