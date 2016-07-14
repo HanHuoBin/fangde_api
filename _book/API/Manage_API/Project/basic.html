@@ -1,0 +1,958 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>项目基本接口 · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.1.1">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="discuss.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Manage_API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    项目相关
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1.1" data-path="basic.html">
+            
+                <a href="basic.html">
+            
+                    
+                    项目基本接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="discuss.html">
+            
+                <a href="discuss.html">
+            
+                    
+                    讨论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="team.html">
+            
+                <a href="team.html">
+            
+                    
+                    团队
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="file.html">
+            
+                <a href="file.html">
+            
+                    
+                    附件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="problem.html">
+            
+                <a href="problem.html">
+            
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.6" data-path="financing.html">
+            
+                <a href="financing.html">
+            
+                    
+                    融资
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.7" data-path="project_after.html">
+            
+                <a href="project_after.html">
+            
+                    
+                    投后
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Funds/">
+            
+                <a href="../Funds/">
+            
+                    
+                    基金相关
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../Funds/basic.html">
+            
+                <a href="../Funds/basic.html">
+            
+                    
+                    基金基本接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../Funds/limiters.html">
+            
+                <a href="../Funds/limiters.html">
+            
+                    
+                    合伙人
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3" data-path="../Funds/team.html">
+            
+                <a href="../Funds/team.html">
+            
+                    
+                    团队
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.4" data-path="../Funds/file.html">
+            
+                <a href="../Funds/file.html">
+            
+                    
+                    附件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.5" data-path="../Funds/funds_projects.html">
+            
+                <a href="../Funds/funds_projects.html">
+            
+                    
+                    基金项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.6" data-path="../Funds/flows.html">
+            
+                <a href="../Funds/flows.html">
+            
+                    
+                    资金流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.7" data-path="../Funds/funds_after.html">
+            
+                <a href="../Funds/funds_after.html">
+            
+                    
+                    投后
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >项目基本接口</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x9879;&#x76EE;&#x57FA;&#x672C;&#x63A5;&#x53E3;">&#x9879;&#x76EE;&#x57FA;&#x672C;&#x63A5;&#x53E3;</h1>
+<h2 id="&#x9879;&#x76EE;&#x5217;&#x8868;">&#x9879;&#x76EE;&#x5217;&#x8868;</h2>
+<pre><code>GET  /project/list
+</code></pre><p><strong>&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#xFF1A;</strong>
+&#x65E0;</p>
+<p><strong>&#x8FD4;&#x56DE;&#x53C2;&#x6570;:</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>&#x9879;&#x76EE;id</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>title</td>
+<td>&#x6807;&#x9898;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>att_number</td>
+<td>&#x5173;&#x6CE8;&#x7528;&#x6237;</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>adder</td>
+<td>&#x6DFB;&#x52A0;&#x8005;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>create_time</td>
+<td>&#x6DFB;&#x52A0;&#x65F6;&#x95F4;</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x9879;&#x76EE;&#x8BE6;&#x60C5;">&#x9879;&#x76EE;&#x8BE6;&#x60C5;</h2>
+<pre><code>GET /project/detail?id=1
+</code></pre><p>&#x8BF4;&#x660E;&#xFF1A;&#x65E0;</p>
+<p><strong>&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#xFF1A;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>&#x9879;&#x76EE;id</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x8FD4;&#x56DE;&#x53C2;&#x6570;:</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>&#x9879;&#x76EE;id</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>title</td>
+<td>&#x6807;&#x9898;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>description</td>
+<td>&#x4E00;&#x53E5;&#x8BDD;&#x63CF;&#x8FF0;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>introduction</td>
+<td>&#x9879;&#x76EE;&#x4ECB;&#x7ECD;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>image</td>
+<td>&#x9879;&#x76EE;&#x56FE;&#x7247;</td>
+<td>String[]</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>logo</td>
+<td>&#x9879;&#x76EE;logo&#x56FE;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>tag</td>
+<td>&#x6807;&#x7B7E;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>province</td>
+<td>&#x7701;&#x4EFD;</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>city</td>
+<td>&#x57CE;&#x5E02;</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>website</td>
+<td>&#x7F51;&#x5740;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>business_license</td>
+<td>&#x5DE5;&#x5546;&#x8D44;&#x8D28;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>invest_process</td>
+<td>&#x8BA4;&#x6295;&#x6D41;&#x7A0B;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>development</td>
+<td>&#x53D1;&#x5C55;&#x5386;&#x7A0B;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x8BF4;&#x660E;&#xFF1A;1.&#x9879;&#x76EE;&#x56FE;&#x7247;&#x4E3A;&#x591A;&#x5F20;
+     2.&#x5DE5;&#x5546;&#x8D44;&#x8D28;&#xFF0C;&#x8BA4;&#x6295;&#x6D41;&#x7A0B;&#x90FD;&#x4E3A;&#x56FE;&#x7247;</p>
+<pre><code class="lang-json">{
+    waiting...
+}
+</code></pre>
+<h2 id="&#x9879;&#x76EE;&#x65B0;&#x589E;">&#x9879;&#x76EE;&#x65B0;&#x589E;</h2>
+<pre><code>POST /project/add
+</code></pre><p><strong>&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#xFF1A;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>&#x6807;&#x9898;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>description</td>
+<td>&#x4E00;&#x53E5;&#x8BDD;&#x63CF;&#x8FF0;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>introduction</td>
+<td>&#x9879;&#x76EE;&#x4ECB;&#x7ECD;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>image</td>
+<td>&#x9879;&#x76EE;&#x56FE;&#x7247;</td>
+<td>String[]</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>logo</td>
+<td>&#x9879;&#x76EE;logo&#x56FE;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>tag</td>
+<td>&#x6807;&#x7B7E;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>province</td>
+<td>&#x7701;&#x4EFD;</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>city</td>
+<td>&#x57CE;&#x5E02;</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>website</td>
+<td>&#x7F51;&#x5740;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>business_license</td>
+<td>&#x5DE5;&#x5546;&#x8D44;&#x8D28;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>invest_process</td>
+<td>&#x8BA4;&#x6295;&#x6D41;&#x7A0B;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>development</td>
+<td>&#x53D1;&#x5C55;&#x5386;&#x7A0B;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>admin_id</td>
+<td>&#x6DFB;&#x52A0;&#x4EBA;</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x8FD4;&#x56DE;&#x53C2;&#x6570;:</strong></p>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;code&quot;</span>: <span class="hljs-number">200</span>
+    <span class="hljs-string">&quot;msg&quot;</span>: <span class="hljs-string">&quot;&#x6DFB;&#x52A0;&#x6210;&#x529F;&quot;</span>
+    <span class="hljs-string">&quot;result&quot;</span>: []
+}
+</code></pre>
+<h2 id="&#x9879;&#x76EE;&#x7F16;&#x8F91;">&#x9879;&#x76EE;&#x7F16;&#x8F91;</h2>
+<pre><code>POST /project/edit?id=2
+</code></pre><p><strong>&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#xFF1A;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>&#x9879;&#x76EE;id</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>title</td>
+<td>&#x6807;&#x9898;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>description</td>
+<td>&#x4E00;&#x53E5;&#x8BDD;&#x63CF;&#x8FF0;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>introduction</td>
+<td>&#x9879;&#x76EE;&#x4ECB;&#x7ECD;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>image</td>
+<td>&#x9879;&#x76EE;&#x56FE;&#x7247;</td>
+<td>String[]</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>logo</td>
+<td>&#x9879;&#x76EE;logo&#x56FE;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>tag</td>
+<td>&#x6807;&#x7B7E;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>province</td>
+<td>&#x7701;&#x4EFD;</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>city</td>
+<td>&#x57CE;&#x5E02;</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>website</td>
+<td>&#x7F51;&#x5740;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>business_license</td>
+<td>&#x5DE5;&#x5546;&#x8D44;&#x8D28;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>invest_process</td>
+<td>&#x8BA4;&#x6295;&#x6D41;&#x7A0B;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>development</td>
+<td>&#x53D1;&#x5C55;&#x5386;&#x7A0B;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x8FD4;&#x56DE;&#x53C2;&#x6570;:</strong></p>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;code&quot;</span>: <span class="hljs-number">200</span>
+    <span class="hljs-string">&quot;msg&quot;</span>: <span class="hljs-string">&quot;&#x7F16;&#x8F91;&#x6210;&#x529F;&quot;</span>
+    <span class="hljs-string">&quot;result&quot;</span>: []
+}
+</code></pre>
+<h2 id="&#x9879;&#x76EE;&#x5220;&#x9664;">&#x9879;&#x76EE;&#x5220;&#x9664;</h2>
+<pre><code>POST /project/del?id=1
+</code></pre><p><strong>&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#xFF1A;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>&#x9879;&#x76EE;id</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x8FD4;&#x56DE;&#x53C2;&#x6570;:</strong></p>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;code&quot;</span>: <span class="hljs-number">200</span>
+    <span class="hljs-string">&quot;msg&quot;</span>: <span class="hljs-string">&quot;&#x5220;&#x9664;&#x6210;&#x529F;&quot;</span>
+    <span class="hljs-string">&quot;result&quot;</span>: []
+}
+</code></pre>
+<h2 id="&#x5173;&#x6CE8;&#x7528;&#x6237;&#x5217;&#x8868;">&#x5173;&#x6CE8;&#x7528;&#x6237;&#x5217;&#x8868;</h2>
+<pre><code>GET /project/att_list
+</code></pre><p><strong>&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#xFF1A;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>&#x9879;&#x76EE;id</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x8FD4;&#x56DE;&#x53C2;&#x6570;:</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>&#x7528;&#x6237;id</td>
+<td>int</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>nickname</td>
+<td>&#x6635;&#x79F0;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>truename</td>
+<td>&#x771F;&#x662F;&#x59D3;&#x540D;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+<tr>
+<td>phone</td>
+<td>&#x7535;&#x8BDD;</td>
+<td>String</td>
+<td>&#x662F;</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;code&quot;</span>: <span class="hljs-number">200</span>
+    <span class="hljs-string">&quot;msg&quot;</span>: <span class="hljs-string">&quot;ok&quot;</span>
+    <span class="hljs-string">&quot;result&quot;</span>: {
+            <span class="hljs-string">&quot;current&quot;</span>: <span class="hljs-number">1</span>
+            <span class="hljs-string">&quot;prev&quot;</span>: <span class="hljs-number">1</span>
+            <span class="hljs-string">&quot;next&quot;</span>: <span class="hljs-number">2</span>
+            <span class="hljs-string">&quot;last&quot;</span>: <span class="hljs-number">4</span>
+            <span class="hljs-string">&quot;total&quot;</span>: <span class="hljs-number">33</span>
+            <span class="hljs-string">&quot;per_page&quot;</span>: <span class="hljs-number">10</span>
+            <span class="hljs-string">&quot;data&quot;</span>: [
+                {
+                    <span class="hljs-string">&quot;id&quot;</span>: <span class="hljs-number">34</span>,
+                    <span class="hljs-string">&quot;nickname&quot;</span>: <span class="hljs-string">&quot;hanbin&quot;</span>,
+                    <span class="hljs-string">&quot;truename&quot;</span>: <span class="hljs-string">&quot;&#x97E9;&#x658C;&quot;</span>,
+                    <span class="hljs-string">&quot;phone&quot;</span>: <span class="hljs-string">&quot;18757110824&quot;</span>
+                },    
+                {
+                    <span class="hljs-string">&quot;id&quot;</span>: <span class="hljs-number">34</span>,
+                    <span class="hljs-string">&quot;nickname&quot;</span>: <span class="hljs-string">&quot;hanbin&quot;</span>,
+                    <span class="hljs-string">&quot;truename&quot;</span>: <span class="hljs-string">&quot;&#x97E9;&#x658C;&quot;</span>,
+                    <span class="hljs-string">&quot;phone&quot;</span>: <span class="hljs-string">&quot;18757110824&quot;</span>
+                },
+                {
+                    <span class="hljs-string">&quot;id&quot;</span>: <span class="hljs-number">34</span>,
+                    <span class="hljs-string">&quot;nickname&quot;</span>: <span class="hljs-string">&quot;hanbin&quot;</span>,
+                    <span class="hljs-string">&quot;truename&quot;</span>: <span class="hljs-string">&quot;&#x97E9;&#x658C;&quot;</span>,
+                    <span class="hljs-string">&quot;phone&quot;</span>: <span class="hljs-string">&quot;18757110824&quot;</span>
+                }
+            ]
+        }
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 项目相关">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="discuss.html" class="navigation navigation-next " aria-label="Next page: 讨论">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"项目基本接口","level":"1.2.1.1","depth":3,"next":{"title":"讨论","level":"1.2.1.2","depth":3,"path":"API/Manage_API/Project/discuss.md","ref":"API/Manage_API/Project/discuss.md","articles":[]},"previous":{"title":"项目相关","level":"1.2.1","depth":2,"path":"API/Manage_API/Project/README.md","ref":"API/Manage_API/Project/README.md","articles":[{"title":"项目基本接口","level":"1.2.1.1","depth":3,"path":"API/Manage_API/Project/basic.md","ref":"API/Manage_API/Project/basic.md","articles":[]},{"title":"讨论","level":"1.2.1.2","depth":3,"path":"API/Manage_API/Project/discuss.md","ref":"API/Manage_API/Project/discuss.md","articles":[]},{"title":"团队","level":"1.2.1.3","depth":3,"path":"API/Manage_API/Project/team.md","ref":"API/Manage_API/Project/team.md","articles":[]},{"title":"附件","level":"1.2.1.4","depth":3,"path":"API/Manage_API/Project/file.md","ref":"API/Manage_API/Project/file.md","articles":[]},{"title":"常见问题","level":"1.2.1.5","depth":3,"path":"API/Manage_API/Project/problem.md","ref":"API/Manage_API/Project/problem.md","articles":[]},{"title":"融资","level":"1.2.1.6","depth":3,"path":"API/Manage_API/Project/financing.md","ref":"API/Manage_API/Project/financing.md","articles":[]},{"title":"投后","level":"1.2.1.7","depth":3,"path":"API/Manage_API/Project/project_after.md","ref":"API/Manage_API/Project/project_after.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"API/Manage_API/Project/basic.md","mtime":"2016-07-14T02:11:37.000Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-07-14T04:52:51.399Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
